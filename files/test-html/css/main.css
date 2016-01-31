@@ -1,0 +1,223 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-color: #282828;
+}
+.based{
+	width: 1106px;
+	height: 493px;
+	margin: 100px auto;
+	background: rgba(12,60,105,1);
+}
+	.container_user{
+		background-image: linear-gradient(left , rgb(54,74,84) 35%, rgb(58,49,51) 74%);
+		background-image: -o-linear-gradient(left , rgb(54,74,84) 35%, rgb(58,49,51) 74%);
+		background-image: -moz-linear-gradient(left , rgb(54,74,84) 35%, rgb(58,49,51) 74%);
+		background-image: -webkit-linear-gradient(left , rgb(54,74,84) 35%, rgb(58,49,51) 74%);
+		background-image: -ms-linear-gradient(left , rgb(54,74,84) 35%, rgb(58,49,51) 74%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			right top,
+			color-stop(0.35, rgb(54,74,84)),
+			color-stop(0.74, rgb(58,49,51))
+		);
+	}
+		.user_top{
+			width: 297px;
+			height: 246.5px;
+		}
+			.user_content{
+				padding-top:41px;
+				margin:0 auto;
+				width: 200px;
+				height: 245px;
+				text-align: center;
+			}
+					.user_img img{
+						margin:0 auto;
+						width: 115px;
+						height: 115px;
+						border-radius: 50%;
+						border: 5px solid #1e2f39;
+						background-color: white;
+					}
+				.user_name{
+					margin:0 auto;
+					color:white;
+				}
+					.user_name h1{	
+						font-size: 30px;
+						margin-top: 20px;
+					}
+		.user_bottom{
+			width: 297px;
+			height: 246.5px;
+		}
+			.content_tabs{
+				padding-left: 10px
+			}
+			#tab_1,#tab_2,#tab_3,#tab_4{
+				padding: 3px;
+			}
+				.user_bottom{
+					color: #8da3c5;
+				}
+				.user_bottom i{
+					font-size: 20px;
+					padding-right: 10px;
+				}
+					#tabs { 
+					    position:relative; 
+					} 
+					 
+					#tabs label { 
+					    width:256px; 
+					    display:block; 
+					    padding:15px 15px 15px 28px; 
+					} 
+					 
+					#tabs label .title:hover { 
+					    cursor:pointer; 
+					} 
+					 
+					#tabs input[type=radio] { 
+					    display:none; 
+					} 
+					 
+					#tabs input[type=radio]:checked + label div { 
+					    display:block; 
+					} 
+					 
+					#tabs input[type=radio]:checked + label { 
+					    background:#16222c; 
+					} 
+					 
+					#tabs input[type=radio]:checked + label .title { 
+					    color:#fff; 
+					} 
+					.tab_content { 
+						padding:10px;
+						display: none;
+						width: 809px;
+						height: 493px;
+						position: absolute;
+						top: -247px;
+						left: 277px;
+						border-left:1px solid #1f2c37;
+					}	
+						.tab_content h1,.tab_content h2{
+							color: white;
+						}
+						.tab_content h1{
+							font-size: 30px;
+							padding-left:28px;
+						}
+						.tab_content h2{
+							margin-top: 40px;
+							font-size: 15px;
+							padding-left:28px;
+						}
+						.tab_content h3{
+							font-size: 15px;
+							padding-left:28px;
+						}
+						.tab_content hr{
+							    border: none; 
+								color: #1f2c37; 
+								background-color:#1f2c37;
+								height: 1px;
+						}
+						input[type=checkbox]{
+							display: none;
+						}
+							.settings_content label{
+								cursor: pointer;
+							}
+								.tab_content label:after{
+									text-align: center;
+									content: '✓';
+									font-size: 25px;
+									color:#213140;
+									background:transparent;
+									border-radius: 10px;
+									display: inline-block;
+									height: 36px;
+									width: 36px;
+									margin-right: 20px;
+									text-align: center;
+									vertical-align: middle;
+									background-color:#16222c;
+									cursor: pointer;
+									float:right;
+								}
+									input[type=checkbox]:checked + label:after {
+									content: '✓';
+									font-size: 25px;
+									color:#179ac4;
+								}
+						#tabs form label{
+							width: 789px;
+						}
+					#div1{
+						display:none;
+						margin-top:20px;
+						margin-right: 29px;
+						float:right;
+					}
+					#div1 button{
+						margin: 1px;
+						padding: 5px 10px 5px 10px;
+						border:0px;
+					}
+					#div1 .button1{
+						width: ;
+						height: ;
+						background: none;
+						border: 1px solid none;
+					}
+						#div1 .button1:hover{
+							color:#179ac4;
+							border: 1px solid #179ac4;
+						}
+					#div1 .button2{
+						width: ;
+						height: ;
+						color:white;
+						background:#179ac4;	
+					}
+						#div1 .button2:hover{
+							color:#179ac4;
+							background:white;		
+						}
+					#div1 .button3{
+							color:#8DA3C5;
+							border: 1px solid #8DA3C5;
+							background:none;
+						}

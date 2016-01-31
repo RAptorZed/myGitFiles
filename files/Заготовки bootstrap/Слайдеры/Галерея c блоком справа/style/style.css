@@ -1,0 +1,14 @@
+.blok_right{
+	float:left;
+	width: 200px;
+	height: 400px;
+	background-color: black;
+	display:block;
+}
+.carousel-inner img{
+	float:left;
+}
+.conte{
+	width: 840px;
+	height: 400px;
+}

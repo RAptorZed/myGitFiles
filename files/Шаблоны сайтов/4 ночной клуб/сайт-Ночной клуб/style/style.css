@@ -1,0 +1,237 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+ background-color: black;
+}
+h2{
+	font-family: 'arial';
+}
+@font-face{
+    font-family:'CompPro';
+    src: url(../font/PFDinTextCompPro-Thin.ttf);
+}
+.conteiner{
+	background-image: url(../img/bg.png);
+	width: 1920px;
+	height: 1105px;
+	margin:0 auto;
+}
+	.navigation{
+		width: 960px;
+		height: 60px;
+		margin: 0 auto;
+		background: rgba(0, 0, 0, 0.5);
+	}
+		.navigation ul li{
+			display:inline-block;
+			width: 156.67px;
+			height: 60px;
+			background-color: black;
+			cursor:pointer;
+			text-align: center;
+		}
+		.navigation ul li:hover {
+			background-color: #7431a8;
+		}
+
+		.navigation a{
+			font-family:'CompPro';
+			position: relative;
+			top: 15px;
+			text-decoration: none;
+			font-size: 22px;
+			color:#383839;
+		}
+		.navigation li:hover a{
+			color:white;
+		}
+	
+	.logo{
+		width: 870px;
+		height: 145px;
+		margin:0 auto;
+	}	
+		.logo_left{
+			background-image: url(../img/logo.png);
+			float:left;
+			width: 277px;
+			height: 90px;
+			margin-top: 30px;
+		}
+
+	.conteiner_2{
+		width: 960px;
+		height: 900px;
+		margin: 0 auto;
+		background: rgba(0, 0, 0, 0.9);
+	}	
+		.info1{
+			width: 870px;
+			height: 375px;
+			margin: 0 auto;
+		}
+			.info1 a{
+				color: white;
+				text-decoration: none;
+			}
+			.info1 a:hover{
+				color: #7431a8;
+			}
+			.info1 h1{
+				font-family:'CompPro';
+				color:white;
+			}
+			.info1 h2{
+				color:#383839;
+				font-size: 14px;
+			}
+			.info1_left{
+				width: 405px;
+				height: 320px;
+				margin-top: 55px;
+				margin-right: 30px;
+				float:left;
+			}
+			.info1_right{
+				width: 405px;
+				height: 320px;
+				float:left;
+				margin-left: 30px;
+				margin-top: 55px;
+			}
+				.info1_right h1{
+					font-family:'CompPro';
+				}
+				.info1_right_top{
+					margin-top: 3px;
+					width: 405px;
+					height: 125px;
+				}
+				.info1_right_bottom{
+					width: 405px;
+					height: 125px;	
+				}
+					.info1_right_top_img1{
+						float:left;
+						width: 120px;
+						height: 110px;
+						margin-top: 10px;
+						background-image:url(../img/date1.png);
+						background-repeat: no-repeat;
+					}
+					.info1_right_top_img2{
+						float:left;
+						width: 120px;
+						height: 110px;
+						margin-top: 10px;
+						background-image:url(../img/date2.png);
+						background-repeat: no-repeat;
+					}
+					.info1_right_top_text1{
+						margin-top: 15px;
+						width: 270px;
+						height: 100px;
+						float: right;
+						
+					}
+					.info1_right_top_text2{
+						margin-top: 15px;
+						width: 270px;
+						height: 100px;
+						float: right;
+						
+					}
+		.info2{
+			margin: 0 auto;
+			margin-top: 35px;
+			width: 870px;
+			height: 355px;
+		}	
+			.info2_left{
+				float:left;
+				width: 261px;
+				height: 355px;
+			}
+			.info2_left h1{
+				font-family:'CompPro';
+			}
+				.info2_left_img{
+					width: 261px;
+					height: 293px;
+					background-image: url(../img/left_img.png);
+				}
+			.info2_right{
+				margin-top: 48px;
+				float:right;
+				width: 585px;
+				height: 292px;
+			}
+			.info2_right h1 {
+				font-family:'CompPro';
+			}
+			.info2_right h2{
+				color:#383839;
+				font-size: 14px;
+			}	
+				.info2_right_text{
+					margin-left: 25px;
+				
+				}	
+				.info2_right_text h2{
+					color:white;
+				}	
+	.futer{
+		width: 870px;
+		height: 135px;
+		margin:0 auto;
+		display:line-block;
+	}	
+		.futer li {
+			color:white;
+			list-style-type: none;
+		}
+		.futer h1{
+			font-family:'CompPro';
+			font-size: 30px;
+			color:#7f7f7f;
+		}
+		.colon1{
+			width: 220px;
+			height: 135px;
+			float: left;
+		}
+			.colon1_img{
+				width: 144px;
+				height: 25px;
+				margin-top: 10px;
+				background-image: url(../img/connect.png);
+			}
+		.colon2{
+			margin-left: 100px;
+			width: 130px;
+			height: 135px;
+			float: left;
+		}
+			.colon2 ul{
+				margin-top: 10px;
+			}
+		.colon3{
+			margin-left: 20px;
+			width: 100px;
+			height: 135px;
+			float: left;
+		}
+			.colon3 ul{
+				margin-top: 10px;
+			}
+		.colon4{
+			margin-left: 80px;
+			width: 220px;
+			height: 135px;
+			float: left;
+		}
+			.colon4 h2{
+				margin-top: 10px;
+			}

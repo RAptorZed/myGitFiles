@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Подгрузка контента без перезагрузки страницы </title>
+
+<script> 
+    function showContent(link) { 
+        var cont = document.getElementById('content'); 
+        var loading = document.getElementById('loading'); 
+        cont.innerHTML = loading.innerHTML;   
+        var http = createRequestObject(); 
+        if( http )  
+        { http.open('get', link); 
+            http.onreadystatechange = function ()  
+            {   if(http.readyState == 4)  
+                {   cont.innerHTML = http.responseText;  }    } 
+            http.send(null);  } 
+        else  
+        {  document.location = link;   }   } 
+    // ajax объект
+    function createRequestObject()  
+    {  try { return new XMLHttpRequest() } 
+        catch(e)  
+        {  try { return new ActiveXObject('Msxml2.XMLHTTP') } 
+            catch(e)  
+            {   try { return new ActiveXObject('Microsoft.XMLHTTP') } 
+                catch(e) { return null; }   } } } 
+</script>
+</head>
+<body>
+
+<h1 style="text-align:center">Подгрузка контента без перезагрузки страницы</h1>
+
+<ul style="text-align:center">
+	<li style="color:blue"><a href="#linck" onClick="showContent('page1.html')">Страница 1</a></li>
+		<li style="color:green"><a href="#linck" onClick="showContent('page2.html')">Страница 2</a></li>
+			<li style="color:cyan"><a href="#linck" onClick="showContent('page3.html')">Страница 3</a></li>
+				<li style="color:red"><a href="#linck" onClick="showContent('page4.html')">Страница 4</a></li>
+</ul>
+
+ <br /><br />
+ 
+<div id="content">
+    <!-- CONTENT -->
+</div> 
+    <div id="loading" style="display: none"> 
+    Идет загрузка... 
+    </div> 
+
+
+	
+<script>
+showContent('page1.html')
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>WEB_Test</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<script type="text/javascript">
+	function showMe (box) {
+	var vis = (box.checked) ? "block" : "none";
+	document.getElementById('div1').style.display = vis;
+	}
+	function saved () {
+	document.getElementById('but_1').style.display = "none";
+	document.getElementById('but_2').style.display = "none";
+	document.getElementById('but_3').style.display = "block";
+	}
+</script>
+		<div class="based">
+			<div class="container_user">
+				<div class="user_top">
+					<div class="user_content">
+						<div class="user_img">
+							<img src="img/user.jpg">
+						</div>
+						<div class="user_name">
+							<h1>UserName</h1>
+						</div>	
+					</div/>
+				</div>
+				<div class="user_bottom">
+					<div class="content_tabs">
+						<div id="tabs"> 
+						    <input id="tab_1" type="radio" name="tab" value="" checked="checked"> 
+						    <label for="tab_1"> 
+						        <span class="title"><i class="fa fa-users"></i>My Account</span> 
+						        <div class="tab_content">My Account</div> 
+						    </label> 
+						              
+						    <input id="tab_2" type="radio" name="tab" value=""> 
+						    <label for="tab_2"> 
+						        <span class="title"><i class="fa fa-eye"></i>My Profile</span> 
+						        <div class="tab_content">My Profile</div> 
+						    </label>        
+						    <input id="tab_3" type="radio" name="tab" value=""> 
+						    <label for="tab_3"> 
+						        <span class="title"><i class="fa fa-clone"></i>Settings</span> 
+						        <div class="tab_content">
+						        		<div class="settings_content">
+						        			<h1>Settings</h1>
+						        			<h3>Lorem ipsum sit amet, consectetur adipiscing elit. In imperdiet ex sed orci lobotis porttitor.</h3>
+						        			<h2>GENERAL</h2>
+						        			<hr color="black">
+						        				<form action="">
+								        			<input id="check1"type="checkbox">
+								        			<label for="check1" checked>Launch on PC start Launch on PC start</label>
+								        			<input id="check2"type="checkbox" onclick="showMe(this)">
+								        			<label for="check2">I aunch minimized in system tray</label>
+									        			<div id="div1"  style='display:block; display:none;'>
+									        				<button id="but_1"class="button1" type="reset">CANCEL</button>
+									        				<button id="but_2"class="button2" type="submit"onclick="saved(this)">SAVE</button>
+									        				<button id="but_3"class="button3" onclick="saved(this)" style=' display:block; display:none;' >SAVED</button>
+									        			</div>
+								        		</form>
+						        		</div>
+						        </div> 
+						    </label> 
+						    <input id="tab_4" type="radio" name="tab" value=""> 
+						    <label for="tab_4"> 
+						        <span class="title"><i class="fa fa-sign-out"></i>Logout</span> 
+						        <div class="tab_content">Logout</div> 
+						    </label> 					    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
+

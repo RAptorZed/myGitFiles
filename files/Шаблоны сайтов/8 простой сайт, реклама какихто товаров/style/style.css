@@ -1,0 +1,237 @@
+h1,h2,h3,h4{
+	font-weight: normal}
+h1{
+	font-family: 'Titillium Bold', arial;
+}
+h2{
+	font-family: 'Titillium Semibold', arial;
+}
+h3{
+	 font-family: 'Source Sans Pro', arial;
+}
+
+.container{
+	width: 1600px;
+	height: 1420px;
+	background-color: #f6e82d;
+	margin: 0px auto;
+	font-weight: none;
+}
+	.header{
+		width: 1600px;
+		height: 80px;
+		margin: 0px auto;
+		background-image: url(../img/header.png);
+	}
+	.worck{
+		width: 986px;
+		height: 357px;
+		margin: 0 auto;
+		padding-top: 90px;
+		text-align: center;
+	}
+		.worck h1{
+			font-size:54px;
+			color:#db1515;
+		}		
+
+		.worck h2{
+			font-size:26px;
+			color:#000000;			
+		}
+
+		.worck h3{
+			font-size:19px;
+			color:#000000;			
+		}
+
+	.item{
+		text-align: center;
+		width: 625px;
+		height: 302px;
+		margin: -75px auto;
+	}
+		.block_text h2{
+			
+		}
+		.item_block1{
+			width: 160px;
+			height: 302px;
+			float:left;
+			margin-right:36px; 
+		}
+			.block1_img1{
+				width: 153px;
+				height: 198px;
+				margin-left: 3px;
+				background-image: url(../img/img1.png);
+			}
+			.block1_img12{
+				width: 139px;
+				height: 32px;
+				margin: 10px auto;
+				background-image: url(../img/img-5.png);
+			}
+		.item_block2{
+			width: 160px;
+			height: 302px;
+			float:left;
+			margin:0px 34px 0px 36px;
+
+		}
+			.block2_img2{
+				width: 140px;
+				height: 198px;
+				margin-left: 10px;
+				background-image: url(../img/img2.png);
+			}
+			.block1_img22{
+				margin-top:10px;
+				width: 100px;
+				height: 32px;
+				margin: 10px auto;
+				background-image: url(../img/img4.png );
+			}
+		.item_block3{
+			width: 160px;
+			height: 302px;
+			float:left;
+			margin-left:36px; 
+		}
+			.block3_img3{
+				width: 141px;
+				height: 198px;
+				margin-left: 10px;
+				background-image: url(../img/img3.png);
+			}
+			.block1_img32{
+				width: 164px;
+				height: 32px;
+				margin: 10px auto;
+				background-image: url(../img/img-6.png);
+			}
+
+		.block_text{
+			width: 200px;
+			height: 32px;
+			margin-left:-27px;
+			padding:0px 5px 0px 5px;
+		}
+			.block_text h2{
+				font-size: 16px;
+				 font-family: 'Source Sans Pro', arial;
+			}
+
+	.text_befform{
+		text-align: center;
+		width: 625px;
+		height: 30px;
+		margin: 0px auto;
+		margin-top: 115px;
+	}
+		.text_befform h2{
+			font-size:22px;
+		}
+	.register{
+		width: 470px;
+		height:  430px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background: rgba(255,255,255,0.1);
+		padding-left: 60px;
+	}
+		.register{
+			font-style: italic;
+		}
+		.register select{
+			width: 415px;
+			height: 60px;
+			margin: 15px auto;	
+		}
+		.register input{
+			width: 400px;
+			height: 45px;
+			margin: 10px auto;
+		}
+			.register input,.register select{
+				padding: 0px 0px 0px 15px;
+				color:#7e7e7e;
+				   font-family: 'Source Sans Pro', arial;	
+			}
+				.register input:focus,.register select:focus{
+				color:black;
+			}
+		.register button{
+			width: 415px;
+			height: 45px;
+			margin: 10px auto;
+			background-color:#db1515;
+			border:2px solid #db1515;
+			color:white;
+			  font-family: 'Source Sans Pro', arial;			
+		}
+	.footer{
+		text-align: center;
+		width: 470px;
+		height: 30px;
+		margin: 0px auto;
+	}	
+		.footer h3{
+			font-size: 16px;
+		}
+
+		/*---------------------------for bedankpagina.html--------------------------------------------*/
+.container1{
+	width: 1600px;
+	height: 1220px;
+	background-color: #f6e82d;
+	margin: 0px auto;
+	font-weight: none;
+}
+	.item1{
+		text-align: center;
+		width: 825px;
+		height: 370px;
+		margin: -75px auto;
+
+	}
+		.item1_block{
+			width: 825px;
+			height: 350px;
+		}
+			.item1_block_left{
+				width: 412px;
+				height: 350px;
+				float:left;
+			}
+				.left_img1{
+					width: 307px;
+					height: 257px;
+					background-image: url(../img/B_img1.png);
+					background-repeat: no-repeat;
+					margin-left: 53px;
+
+				}
+				.left_text1{
+					width:307px;
+					height: 100px;
+					margin-left: 53px;
+				}
+			.item1_block_right{
+				width: 412px;
+				height: 350px;
+				float:right;				
+			}
+				.right_img2{
+					width: 307px;
+					height: 257px;
+					background-image: url(../img/B_img2.png);
+					background-repeat: no-repeat;
+					margin-left: 53px;
+
+				}
+				.right_text2{
+					width:307px;
+					height: 100px;
+					margin-left: 53px; 
+				}
