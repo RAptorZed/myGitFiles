@@ -1,0 +1,20 @@
+.sandwich.active .sw-topper {
+  top: 10px;
+  transform: rotate(-44deg);
+}
+
+.sandwich.active .sw-bottom {
+  top: 7px;
+  transform: rotate(45deg);
+}
+
+.sandwich.active .sw-footer {
+  opacity: 0;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.h_opacify{
+	transition:all .5s ease;
+	opacity: 0.3;
+}

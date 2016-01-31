@@ -1,0 +1,46 @@
+@import 'scss_mix_var/variables.scss';
+
+.header_adeptive{
+	width: 100%;
+	min-height: 720px;
+	background-image: url(../img/a_s6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.header_text{
+	padding-top: 10%;
+		h1{
+			font-size: 2em;
+			font-weight: 600;
+		}
+		button{
+			margin-top: 20px;
+			padding: 15px 20px;
+			background-color:$col_10;
+			border:none;
+			border-radius: 8px;
+			transition:all .5s ease;
+			color:white;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			font-size: 1.5em;
+			&:hover{
+				background-color:$col_1;
+			}			
+		}
+	.align_center{
+		text-align: center;
+	}	
+	.bg_white{
+		background:rgba(255,255,255,0.8);
+		&:nth-child(1){
+			margin-top: 20px;
+		}
+		&:nth-child(2){
+			margin-top: 20px;			
+		}
+		&:nth-child(3){
+			margin-top: 20px;		
+		}
+	}
+
+}

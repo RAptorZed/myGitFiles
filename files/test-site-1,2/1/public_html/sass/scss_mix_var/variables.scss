@@ -1,0 +1,109 @@
+// colors
+$col_1:#F08184;
+$col_2:#3B424C;
+$col_10:#EA5C6B;
+$col_hr:#97A1B0;
+
+$col_bg_1:#F1F1F1;
+$col_bg_2:#2F3848;
+$col_bg_3:#21262F;
+// fonts , size
+$size_13:0.8125em;
+$size_15:0.9375em;
+$size_16:1em;
+$size_18:1.125em;
+$size_23:1.4375em;
+$size_24:1.5em; 
+$size_30:1.875em;
+$size_36:2.25em; 
+$primary-font:'Open Sans',arial, sans-serif;
+
+
+// paddings
+$pad_15:15px 15px 15px 10px;
+$pad_40:40px;
+
+
+
+// extend buttons
+.buttons{
+	width: 80%;
+	height: 40px;
+	margin-bottom: 10px;
+	background-color:$col_10;
+	border:none;
+	border-radius: 8px;
+	-webkit-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;	
+	color:white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	&:hover{
+		background-color:$col_1;
+	}
+}
+
+
+
+.set-padding{
+	padding:$pad_15;
+}
+.mgn{
+	margin-top: 20px;
+}
+
+
+
+.zagolovok_1{
+	text-align: center;
+	font-size: $size_24;
+	text-transform: uppercase;
+	h1{
+		color:$col_2;
+	}
+	span{
+		color:$col_10;
+	}
+}
+.zagolovok_2{
+	text-align: center;
+	font-size: $size_24;
+	text-transform: uppercase;
+	h1{
+		color:$col_bg_1;
+	}
+	span{
+		color:$col_10;
+	}
+}
+
+
+.section{
+	padding-top: $pad_40;
+	padding-bottom: $pad_40;
+	text-align: center;
+}
+
+.float_right{
+	float:right;
+}
+
+.text_center{
+	text-align: center;
+}
+.text_align{
+	text-align: left;
+}
+@media only screen and (max-width : 992px){
+	.text_align{
+	text-align: center;
+	}
+}
+
+//display
+.displ_inline{
+	display: inline-block;
+}
+.displ_none{
+	display: none;
+}

@@ -1,0 +1,183 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+@font-face{
+    font-family: 'PT Sans Narrow', arial;
+    /*font-family:'Roboto-Light';*/
+    src: url(../font/Roboto-Light.ttf);
+}
+.body-about, .body-pholio{
+  background-color:#140F0F;
+}
+.cd-header-cont{
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(203, 79, 91, 0.5);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cd-header-cont a{
+  color: white;
+  font-family: 'PT Sans Narrow', arial;
+  font-size:2rem;
+}
+.cd-header-cont:hover{
+  color:#D44457;
+}
+.cd-primary-nav-about{
+  float: right;
+}
+.cd-primary-nav-about li{
+  display:inline-block;
+  margin: 40px 20px 20px 0px;
+  font-size: 1.3em;
+}
+.cd-primary-nav-about li a:hover{
+  color:#CB4F5B;
+}
+@media only screen and (max-width: 768px) {
+  .cd-header-cont {
+    height: 50px;
+  }
+  .cd-primary-nav-about li{
+  margin: 15px 20px 20px 0px;
+  }
+}
+#cd-logo {
+  float: left;
+  margin: 0px 0 0 5%;
+  width: 50px;
+  height: 50px;
+  background-image:url(../images/logo50x50.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  #cd-logo {
+    margin: 0px 0 0 5%;
+  }
+  #cd-logo{
+  	width: 100px;
+ 	height: 100px;
+  	background-image:url(../images/logo100x100.png); 
+  	background-repeat: no-repeat;
+  	cursor: pointer;
+  }
+  .cd-main-content-left{
+  	float:right;
+  }
+}
+.grid {
+	overflow: hidden;
+	margin: 0;
+	margin-top: 90px;
+	padding: 3em 0 0 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	margin: 15px;
+	width: 683px;
+	height: 900px;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+@media screen and (max-width: 69.5em) {
+	.grid figure {
+		width: 50%;
+	}	
+
+	.grid figure figcaption {
+		font-size: 90%;
+	}
+}
+
+
+@media screen and (max-width: 41.5em) {
+
+	.grid figure {
+		width: 100%;
+	}
+}

@@ -1,0 +1,55 @@
+@import 'scss_mix_var/variables.scss';
+.container_404_1{
+	padding-top:5%;
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 100%;
+	min-height: 720px;
+}
+.container_404{
+	text-align: center;
+	width: 100%;
+	min-height: 720px;
+	background-image:url(../img/404.png);
+	background-position: center;
+	background-size: cover;
+	.mtop{
+		margin-top: 20px;
+	}
+	.link404{
+		margin: 20px 0px 40px 0px;
+	}
+	a{
+		text-decoration: none;
+		font-size: 7em;
+		color: $col_1;
+		-webkit-transition:all .5s ease;
+		-o-transition:all .5s ease;
+		transition:all .5s ease;
+		&:hover{
+			text-decoration: none;
+			color:$col_10;
+		}
+	}
+	button{
+		min-width: 100px;
+		margin:0px 20px;
+		width: 20%;
+		height: 40px;
+		margin-bottom: 10px;
+		background-color:$col_10;
+		border:none;
+		border-radius: 8px;
+		-webkit-transition:all .5s ease;
+		-o-transition:all .5s ease;
+		transition:all .5s ease;	
+		color:white;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		&:hover{
+			background-color:$col_1;
+		}
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}
